@@ -1,0 +1,25 @@
+{
+  "name": "peaceful-mind",
+  "displayName": "peaceful-mind",
+  "description": "code in peace",
+  "publisher": "glitchlover",
+  "version": "0.0.1",
+  "repository": {
+    "url": ""
+  },
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Peaceful Mind",
+        "uiTheme": "vs-dark",
+        "path": "./themes/peaceful-mind-color-theme.json"
+      }
+    ]
+  }
+}
